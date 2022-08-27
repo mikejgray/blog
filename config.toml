@@ -1,6 +1,5 @@
 baseURL = 'http://blog.graywind.org/'
 languageCode = 'en-us'
-theme = 'anatole'
 
 [params]
   title = 'Mike J. Gray'

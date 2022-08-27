@@ -1,0 +1,49 @@
+baseURL = 'http://blog.graywind.org/'
+languageCode = 'en-us'
+theme = 'Anatole'
+
+[params]
+  title = 'Mike J. Gray'
+  author = "Mike Gray"
+  description = "Full stack nerd"
+  profilePicture = "images/profile.jpg"
+  copyright = "2014-{{ YEAR }}"
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/mikejgray"
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mike@graywind.org"
+[[params.socialIcons]]
+icon = "fas fa-certificate"
+title = "Credly Certifications"
+url = "https://www.credly.com/users/michael-j-gray/badges"
+[[params.socialIcons]]
+icon = "fas fa-stamp"
+title = "Accredible Certifications"
+url = "https://www.credential.net/profile/michaelgray348"
+[[params.socialIcons]]
+icon = "fas fa-list-check"
+title = "Resume"
+url = "https://resume.graywind.org"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 200
+  url = "https://www.graywind.org"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 300
+  identifier = "posts"
+  url = "/post/"

@@ -1,8 +1,8 @@
-baseURL = 'http://blog.graywind.org/'
-languageCode = 'en-us'
+baseURL = "https://blog.graywind.org/"
+languageCode = "en-us"
 
 [params]
-  title = 'Mike J. Gray'
+  title = "Mike J. Gray"
   author = "Mike Gray"
   description = "Full stack nerd"
   profilePicture = "images/profile.jpg"

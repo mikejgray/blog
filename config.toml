@@ -46,7 +46,7 @@ url = "https://resume.graywind.org"
   name = "Posts"
   weight = 300
   identifier = "posts"
-  url = "/post/"
+  url = "/posts/"
 
 [module]
   [[module.imports]]

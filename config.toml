@@ -4,6 +4,7 @@ languageCode = "en-us"
 [params]
   title = "Mike J. Gray"
   author = "Mike Gray"
+  email = "mike@graywind.org"
   description = "Full stack nerd"
   profilePicture = "images/profile.jpg"
   copyright = "2014-{{ YEAR }}"
@@ -28,6 +29,10 @@ url = "https://www.credential.net/profile/michaelgray348"
 icon = "fas fa-list-check"
 title = "Resume"
 url = "https://resume.graywind.org"
+[[params.socialIcons]]
+icon = "fas fa-rss"
+title = "rss"
+url = "/index.xml"
 
 [menu]
   [[menu.main]]

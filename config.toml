@@ -14,6 +14,14 @@ icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://linkedin.com/in/mikejgray"
 [[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/mikejgray/"
+[[params.socialIcons]]
+icon = "fab fa-gitlab"
+title = "Gitlab"
+url = "https://gitlab.com/saxmanmike/"
+[[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mike@graywind.org"
@@ -45,7 +53,7 @@ url = "/index.xml"
   name = "About"
   identifier = "about"
   weight = 200
-  url = "https://www.graywind.org"
+  url = "/about/"
 
   [[menu.main]]
   name = "Posts"

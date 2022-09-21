@@ -61,6 +61,12 @@ url = "/index.xml"
   identifier = "posts"
   url = "/posts/"
 
+  [[menu.main]]
+    name = "Resume"
+    weight = 400
+    identifier = "resume"
+    url = "https://resume.graywind.org"
+
 [module]
   [[module.imports]]
     path = "github.com/lxndrblz/anatole"

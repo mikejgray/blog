@@ -23,3 +23,7 @@ In a past life, Mike has worked as a professional musician and music educator.
 - [SL1ther, a Python-based API wrapper for ScienceLogic EM7/SL1](https://gitlab.com/saxmanmike/slither) (Created)
 - [Gray's Algorithms, a port of FreeCodeCamp's JS algorithms to Python](https://github.com/mikejgray/graysalgorithms) (Adapted)
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) (Contributed)
+
+## External Blog Posts
+
+- [Mind the Gap! The Leap from Legacy to Modern Applications](https://www.2ndwatch.com/blog/mind-gap-leap-legacy-modern-applications/)

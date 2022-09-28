@@ -6,9 +6,9 @@ draft: true
 slug: home-automation # Will take the filename as the slug.
 
 # Lists
-keywords: homelab madscience homeassistant mycroft
-tags: madscience homelab homeassistant mycroft
-categories: home automation homelab
+keywords: ["homelab", "madscience", "homeassistant", "mycroft"]
+tags: ["madscience", "homelab", "homeassistant", "mycroft"]
+categories: ["home automation", "homelab"]
 ---
 
 # Overview

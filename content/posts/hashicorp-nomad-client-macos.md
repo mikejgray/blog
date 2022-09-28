@@ -2,6 +2,11 @@
 title: "Installing Hashicorp Nomad Client on a Mac - Persistent"
 date: 2022-09-25T11:15:58-05:00
 draft: false
+
+# Lists
+keywords: ["hashicorp", "nomad", "homelab", "madscience", "mac", "apple"]
+tags: ["madscience", "homelab", "hashicorp", "nomad", "mac", "apple"]
+categories: ["home automation", "hashicorp", "nomad", "homelab", "mac", "apple"]
 ---
 
 I've been setting up Hashicorp Nomad as my scheduler for my homelab, which includes numerous Raspberry Pis, a few Linux VMs, an Ubuntu laptop, and several Macs. Getting the server set up was fairly straightforward - I'm taking an iterative approach with a single bootstrapped server for now - but I had trouble finding much in the way of setting up persistent clients.

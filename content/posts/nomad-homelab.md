@@ -11,8 +11,7 @@ tags: ["madscience", "homelab", "hashicorp", "nomad"]
 categories: ["home automation", "hashicorp", "nomad", "homelab"]
 ---
 
-{{ $image := .Resources.GetMatch "nomad-clients.jpeg" }}
-{{ $image.Resize "x400" }}
+<img src="/nomad-clients.jpeg" alt="Nomad client list" width="200"/>
 
 In my ongoing quest to become a mad scientist, I realized I had a bunch of compute sitting around my home, largely unused. I could try to choose what runs on which machine and track and manage it all...
 

@@ -8,7 +8,7 @@ slug: nomad-homelab # Will take the filename as the slug.
 # Lists
 keywords: hashicorp nomad homelab madscience
 tags: madscience homelab hashicorp nomad
-categories: home automation, hashicorp, nomad, homelab
+categories: home automation hashicorp nomad homelab
 ---
 
 ![Nomad client list](nomad-clients.jpeg)

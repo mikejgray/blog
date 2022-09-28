@@ -5,17 +5,17 @@ draft: false
 
 slug: nomad-homelab # Will take the filename as the slug.
 
+thumbnail: "images/nomad-clients.jpeg"
+
 # Lists
 keywords: ["hashicorp", "nomad", "homelab", "madscience"]
 tags: ["madscience", "homelab", "hashicorp", "nomad"]
 categories: ["home automation", "hashicorp", "nomad", "homelab"]
 ---
 
-<img src="/nomad-clients.jpeg" alt="Nomad client list" width="200"/>
-
 In my ongoing quest to become a mad scientist, I realized I had a bunch of compute sitting around my home, largely unused. I could try to choose what runs on which machine and track and manage it all...
 
-<div class="tenor-gif-embed" data-postid="13199396" data-share-method="host" data-aspect-ratio="1.77914" data-width="100%"><a href="https://tenor.com/view/why-huh-but-why-gif-13199396">Why Huh GIF</a>from <a href="https://tenor.com/search/why-gifs">Why GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+![But why?](https://c.tenor.com/KjJTBQ9lftsAAAAC/why-huh.gif)
 
 So instead, I embarked on a quest to make it all part of one big Nomad cluster at home. The Nomad server is a single qemu VM running on my Synology NAS system, which is also on a UPS to keep it running until my generator kicks on. Since [Hashicorp Nomad](https://nomadproject.io) separates the notion of server (orchestrator) and client (worker), that single VM is all I really need to schedule basically any workloads I need to at home.
 

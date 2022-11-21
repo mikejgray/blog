@@ -64,6 +64,11 @@ Eventually I want to block the doorbell's outbound access and set up better aler
 
 - [Inovelli Red Z-Wave Switches](https://www.amazon.com/gp/product/B07T26MVYC/)
 
+## Home Lights
+
+- [Martin Jerry Tasmota Switches](https://www.amazon.com/gp/product/B0B2RLKRJB)
+  - I love these things - great price, they come with Tasmota installed by default, easy to hook up, can't beat it!
+
 ## Home Entertainment
 
 - [Logitech Harmony Hub](https://www.amazon.com/Logitech-Harmony-Control-Entertainment-Devices/dp/B00N3RFC4Q/)
@@ -82,6 +87,7 @@ Eventually I want to block the doorbell's outbound access and set up better aler
 - Node-RED for automations in Home Assistant
 - [Google Wifi - AC1200 - Mesh WiFi System](https://www.amazon.com/gp/product/B08GG9CMLR/)
 - A Raspberry Pi 3B+ print server running Ubuntu 22.04 lite. Since I rarely use Windows at home but we almost exclusively have Apple devices, the printer is served via CUPS. Native AirPrint support and now I can wirelessly print from every device I use regularly at home, including our phones and iPads.
+- [Monoprice Delta Mini 3D Printer](https://www.amazon.com/gp/product/B07CJQ3D6L) - Got it from a friend who had swapped out a part and it stopped working, so I fixed it up and now I've got a nice little 3D printer!
 
 **Note**: Yes, I realize using Google for my mesh wifi is in violation of a lot of principles in my home automation. However, it seems to be the least invasive of the mesh wifi options available. Nobody is offering mesh wifi at any kind of reasonable rate without shipping data off to who-knows-where. The devil you know is better than the devil you don't.
 
@@ -89,15 +95,22 @@ Eventually I want to block the doorbell's outbound access and set up better aler
 
 - [NFC215 Coins](https://www.amazon.com/gp/product/B08DXSQVYH/) for triggering automations via my phone.
 
+## Voice Assistants
+
+- [Mycroft Mark II](https://mycroft.ai/product/mark-ii/)
+- [2 Mycroft Picrofts](https://mycroft-ai.gitbook.io/docs/using-mycroft-ai/get-mycroft/picroft)
+- I had a pair of Amazon Echo Dots, but now that Mycroft is in place, those have been decommissioned.
+
 ## Upcoming
 
 - [Shelly relays](https://www.amazon.com/gp/product/B07XRY1K7V) to turn dumb light switches into smart ones (linked example is for switches lacking a neutral wire, which unfortunately several of my rooms lack)
-- 3D Printer
 - Homemade motion sensors
 - Raspberry Pi clusters to perform tasks and process data, using the Synology as long-term storage
-- Software-Defined Radio set up on one of the Pis
+- Software-Defined Radio set up on one of the Pis (right now, it's on the print server, but not doing anything)
 - Backups for the Synology (mostly media and files), probably up to Google Drive due to low costs
 - Local Git setup with CI/CD (GitLab or similar)
 - Hashistack
 - Tailscale
 - Machine Learning algorithm training on the gaming laptop at idle
+- Take the Mycroft software services and decentralize portions of them, so I can have minimal setups that just handle input/output and the rest is processed on my home network.
+
